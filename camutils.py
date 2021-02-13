@@ -37,7 +37,7 @@ def bbox_to_bytes(bbox_array):
 
   return bbox_bytes
 
-  def take_photo(filename='photo.jpg', quality=0.8):
+def take_photo(filename='photo.jpg', quality=0.8):
   js = Javascript('''
     async function takePhoto(quality) {
       const div = document.createElement('div');
